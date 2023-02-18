@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <title>ToDo Application</title>
+    <script src="/qwikloader.min.js" type="module"></script>
+    <script>
+      var Q = { protocol: { ui: './ui', data: './data', base: './' } };
+    </script>
+    <link rel="stylesheet" href="./base.css" />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    THIS DEMO IS OLD!!! Go to >>>
+    <a href="http://qwik.builder.io">http://qwik.builder.io</a>
+
+    <div decl:template="ui:/TodoApp_template" on:q-init="base:qwik#markDirty"></div>
+  </body>
+</html>
